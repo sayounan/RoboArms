@@ -25,6 +25,7 @@ the program works.
 ![UML](https://github.com/sayounan/RoboArms/blob/main/Media/LDA%20Landscape/Page-2.png)
 ### Confusion Matrix
 ![UML](https://github.com/sayounan/RoboArms/blob/main/Media/Picture1.png)
+
 This matrix shows the accuracy of our model by showing the number of calculated
 classifications of a posture relative to the expected posture. For example, the TAB
 posture was correctly classified 80.25% of the time on the high end while HC was
