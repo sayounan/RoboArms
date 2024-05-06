@@ -19,3 +19,5 @@ the program works.
 
 ![UML](https://github.com/sayounan/RoboArms/blob/main/Media/LDA%20Landscape/Page-1.png)
 ![UML](https://github.com/sayounan/RoboArms/blob/main/Media/LDA%20Landscape/Page-2.png)
+![UML](https://github.com/sayounan/RoboArms/blob/main/Media/Picture1.png)
+
