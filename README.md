@@ -17,7 +17,15 @@ intermediate level of accuracy. Future improvements can be made to
 significantly increase the accuracy. Below is a detailed UML of how
 the program works.
 
-![UML](https://github.com/sayounan/RoboArms/blob/main/Media/LDA%20Landscape/Page-1.png)
-![UML](https://github.com/sayounan/RoboArms/blob/main/Media/LDA%20Landscape/Page-2.png)
-![UML](https://github.com/sayounan/RoboArms/blob/main/Media/Picture1.png)
+## UML Diagrams
 
+### Data Pre-Processing
+![UML](https://github.com/sayounan/RoboArms/blob/main/Media/LDA%20Landscape/Page-1.png)
+### Data Processing
+![UML](https://github.com/sayounan/RoboArms/blob/main/Media/LDA%20Landscape/Page-2.png)
+### Confusion Matrix
+![UML](https://github.com/sayounan/RoboArms/blob/main/Media/Picture1.png)
+This matrix shows the accuracy of our model by showing the number of calculated
+classifications of a posture relative to the expected posture. For example, the TAB
+posture was correctly classified 80.25% of the time on the high end while HC was
+classified correctly only 38.07% of the time relative to the expected.
