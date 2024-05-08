@@ -63,7 +63,7 @@ for p = 1:11
             WL = 0;
             for pts=1:window-1
                 dist = bin(i,pts)-bin(i,pts+1);
-                WL = WL + dist;
+                WL = WL + abs(dist);
             end
             Features((4*i),j) = WL;
 
