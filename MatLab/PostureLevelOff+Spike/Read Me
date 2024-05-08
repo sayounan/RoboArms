@@ -1,1 +1,18 @@
+This is probably not how you're supposed to do this, but fuck it, here are the instructions for this shit so everyone can try it out
+First run "Load_and_plot" to move the raw data into a structure that will be compatible with the rest of the code
 
+That should create a structure named "EMG", save it to your machine, name it w/e you like, repeat for validation data
+
+Load the EMG structure into "filter_loops" this will apply the digital filters. Save the "EMGfilt" structure, repeat for validation
+
+Load your filtered data into "Off_Removal_Posture_Level" be sure to comment out all but one of the plotting sections or you'll only see the last set of plots
+Save the "EMG_on" structure, repeat for validation data
+
+Load your on data into "Feature_Extraction3" this will calculate your MAV, ZC, SSC, and WL. Save the "EMG_feat" structure, repeat for validation data
+
+*IMPORTANT: WHEN YOU RUN THIS BIT OF CODE YOU HAVE TO CHANGE THE NAMES OF THE STRUCTURES IN THE CODE BETWEEN TRAINING AND VALIDATION DATA, THE NEXT PROGRAM 
+WILL NOT WORK IF YOUR TRAINING DATA IS NOT "EMG_feat" AND YOU VALIDATION DATA IS NOT "EMG_feat_Val". There may be a way to automate that, but I don't know it,
+so the easiest thing to do is change line 9 in this code to the correct identifier and use Matlab's "shift+enter" shortcut to change the following instances of it
+
+Load your training and validation data into "LDA_Classifier" and see how it does, since fixing the math error the highest accuracy I've gotten was like 50% ish
+GLHF - Good Luck, Have Fun
